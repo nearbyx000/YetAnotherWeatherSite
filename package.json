@@ -19,6 +19,7 @@
   "description": "",
   "dependencies": {
     "@material/web": "^2.2.0",
+    "express": "^4.21.2",
     "ronin-mocks": "^0.1.11",
     "ronin-server": "^0.1.3"
   }
