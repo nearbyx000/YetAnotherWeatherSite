@@ -1,3 +1,4 @@
+
 function smooth_scroll(){
      // Плавная прокрутка
      document.querySelectorAll('nav a').forEach(anchor => {

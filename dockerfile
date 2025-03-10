@@ -12,10 +12,3 @@ COPY . .
 
 
 CMD [ "node", "server.js" ]
-
-
-# Открываем порт 80
-EXPOSE 80
-
-# Команда для запуска Apache
-CMD ["httpd-foreground"]

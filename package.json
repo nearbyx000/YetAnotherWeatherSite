@@ -18,6 +18,7 @@
   "homepage": "https://github.com/nearbyx000/YetAnotherWeatherSite#readme",
   "description": "",
   "dependencies": {
+    "@material/web": "^2.2.0",
     "ronin-mocks": "^0.1.11",
     "ronin-server": "^0.1.3"
   }
