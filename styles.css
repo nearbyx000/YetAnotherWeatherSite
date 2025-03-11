@@ -5,16 +5,16 @@
 }
 
 body {
-    font-family: Comic, sans-serif;
+    font-family: Roboto, sans-serif;
     line-height: 1.6;
 }
 
 /* Навигация */
 nav {
-    position: fixed;
+    position: static;
     top: 0;
     width: 100%;
-    background: #333;
+    background: #008f99;
     padding: 1rem;
     z-index: 1000;
 }
@@ -51,21 +51,21 @@ section {
 }
 
 #home {
-    background: #6ccd6d;
+    background: #a5f0a6;
     margin-top: 60px;
 }
 
-#about {
-    background: #faabab;
+#today_weather {
+    background: #ffc5c5;
 }
 
-#contact {
-    background: #e6e872;
+#week_weather {
+    background: #fcfdaa;
 }
 
 footer {
     background: #333;
-    color: white;
+    color: rgb(198, 167, 255);
     text-align: center;
     padding: 1rem;
 }
