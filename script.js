@@ -33,3 +33,10 @@ function smooth_scroll(){
         });
     });
 }
+let button = document.createElement('button');
+button.setAttribute('type', 'button');
+button.classList.add('btn');
+button.textContent("Узнать погоду")
+button.addEventListener('click', () => {
+    alert("Как тока апи будет так и скажу")
+    });
