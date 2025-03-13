@@ -38,5 +38,6 @@ button.setAttribute('type', 'button');
 button.classList.add('btn');
 button.textContent("Узнать погоду")
 button.addEventListener('click', () => {
-    alert("Как тока апи будет так и скажу")
-    });
+    console.log("Как тока апи будет так и скажу");
+});
+document.body.append(button);
