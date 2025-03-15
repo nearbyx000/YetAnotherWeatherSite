@@ -33,11 +33,12 @@ function smooth_scroll(){
         });
     });
 }
-let button = document.createElement('button');
-button.setAttribute('type', 'button');
-button.classList.add('btn');
-button.textContent("Узнать погоду")
-button.addEventListener('click', () => {
-    console.log("Как тока апи будет так и скажу");
-});
-document.body.append(button);
+let popka = document.createElement('button');
+popka.setAttribute('type', 'button');
+popka.classList.add('btn');
+popka.textContent("Узнать погоду")
+function OnClick(){
+    console.log("Как тока апи будет,так и скажу")
+};
+popka.onclick(OnClick);
+
